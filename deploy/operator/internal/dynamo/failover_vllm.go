@@ -18,6 +18,7 @@ import (
 const (
 	vllmMasterPortFlag   = "--master-port"
 	vllmMasterPortStride = 100
+	vllmModuleName       = "dynamo.vllm"
 
 	twoShadowIntraPodFailoverProfileMessage = "two shadows currently require a single-node direct vLLM launch without Ray or data parallel"
 )
